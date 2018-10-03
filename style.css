@@ -34,7 +34,7 @@ header nav{
 	margin-top: 5px;
 }
 .current a{
-	/*color: #32a0c2;*/
+	color: #32a0c2;
 	font-weight: bold;
 }
 header a:hover{
