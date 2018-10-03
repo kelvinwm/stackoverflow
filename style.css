@@ -99,6 +99,7 @@ a:hover{
     font-weight: bold;
     color:  #32a0c2;
     padding-top: 15px;
+    list-style: none;
 
 }
 #sidebar{
@@ -112,9 +113,37 @@ a:hover{
 }
 #sidebar li{
     padding-top: 15px;
+    list-style: none;
 }
+/*sign up page css*/
+.regform{
+	text-align: center;
+	background: #32a0c2;
+	width: 30%;
+	min-height: 474px;
+	margin: 0 auto;
+}
+.regform h2{
+	padding: 15px;
 
-
+}
+#button_reg{
+	height: 38px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
+}
+#entery{
+	padding: 10px;
+}
+#entery input[type="password"]{
+	height: 32px;
+	width: 250px;
+}
+#entery input[type="email"]{
+	height: 32px;
+	width: 250px;
+}
 
 
 
