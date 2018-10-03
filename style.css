@@ -1,0 +1,139 @@
+body{
+	padding: 0;	
+	margin: 0;
+	background-color: #ffffff;
+}
+.container_1{
+	width: 98%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*HEADER CSS*/
+header{
+	background: #353637;
+	color: #ffffff;
+	min-height: 50px;
+	border-bottom: #32a0c2 3px solid;/*remove this*/
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+header #tmark{
+	margin-top: 5px;
+	float: left;
+}
+#tmark h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 5px;
+}
+.current a{
+	/*color: #32a0c2;*/
+	font-weight: bold;
+}
+header a:hover{
+	color: #32a0c2;
+	font-weight: bold;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+/*Bit of what we do*/
+#bitofus{
+	min-height: 100px;
+	text-align: center;
+	background: #32a0c2;
+	color: #ffffff;
+}
+/*search*/
+#asksearch{
+	color: #ffffff;
+	background: #353637;
+}
+#asksearch a:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+#asksearch a{
+	color: #32a0c2;
+}
+#asksearch h1{
+	float: left;
+}
+#asksearch form{
+	float: right;
+	margin-top: 15px;
+}
+.btn{
+	height: 38px;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#asksearch input[type="text"]{
+	
+	height: 32px;
+	width: 250px;
+}
+
+#main-col{
+	float: left;
+	width: 70%;
+}
+#main-col li{
+
+    font-weight: bold;
+    color:  #32a0c2;
+    padding-top: 15px;
+
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #32a0c2;
+	margin-top: 15px;
+}
+#sidebar h3{
+	text-align: center;
+}
+#sidebar li{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	background: #32a0c2;
+	color: #ffffff;
+	padding: 20px;
+	margin-top: 20px;
+}
