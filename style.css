@@ -90,6 +90,7 @@ a:hover{
 	width: 250px;
 }
 
+/*questions and answers*/
 #main-col{
 	float: left;
 	width: 70%;
@@ -101,6 +102,16 @@ a:hover{
     padding-top: 15px;
     list-style: none;
 
+}
+#userrespose li{
+	font-weight: normal;
+	display: inline;
+	padding: 0 10px 0 10px;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
 }
 #sidebar{
 	float: right;
