@@ -1,7 +1,7 @@
 body{
 	padding: 0;	
 	margin: 0;
-	background-color: #ffffff;
+	background-color: #f4f5f7;
 }
 .container_1{
 	width: 98%;
@@ -93,7 +93,10 @@ a:hover{
 /*questions and answers*/
 #main-col{
 	float: left;
-	width: 70%;
+	width: 65%;
+    border-radius: 5px;
+    border: 1px solid #73AD21;
+    margin-top: 5px;
 }
 #main-col li{
 
@@ -101,7 +104,9 @@ a:hover{
     color:  #32a0c2;
     padding-top: 15px;
     list-style: none;
-
+}
+#questions{
+	padding: 15px;
 }
 #userrespose li{
 	font-weight: normal;
@@ -118,6 +123,8 @@ ul{
 	width: 30%;
 	background: #32a0c2;
 	margin-top: 15px;
+	border-radius: 15px;
+	padding: 5px;
 }
 #sidebar h3{
 	text-align: center;
@@ -125,6 +132,14 @@ ul{
 #sidebar li{
     padding-top: 15px;
     list-style: none;
+    color: #ffffff;
+}
+#sidebar a{
+    color: #ffffff;
+}
+#sidebar a:hover{
+	color: #cccccc;
+	font-weight: bold;
 }
 /*sign up page css*/
 .regform{
